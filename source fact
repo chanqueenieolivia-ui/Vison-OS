@@ -1,0 +1,12 @@
+using UnityEngine;
+
+public class SourceFetcher : MonoBehaviour {
+    public string FetchReference(string keyword) {
+        switch(keyword) {
+            case "帝女花": return "粵劇《帝女花》唱腔與身段參考版本";
+            case "waltz": return "華爾滋 Natural Spin Turn 標準步伐";
+            case "sword": return "劍擊比賽標準攻防動作";
+            default: return "未找到相關參考資料";
+        }
+    }
+}
